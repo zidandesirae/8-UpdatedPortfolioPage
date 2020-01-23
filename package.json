@@ -1,0 +1,22 @@
+{
+  "name": "unit09portfolioupdate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zidandesirae/unit09-portfolioUpdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zidandesirae/unit09-portfolioUpdate/issues"
+  },
+  "homepage": "https://github.com/zidandesirae/unit09-portfolioUpdate#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
