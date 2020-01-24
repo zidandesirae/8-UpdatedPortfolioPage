@@ -7,6 +7,7 @@
     <title>Updated Portfolio</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,10 +18,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active lead" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="nav">
+          <!-- <a class="nav-item nav-link active lead" href="#">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link active lead" href="#">Projects</a>
-          <a class="nav-item nav-link active lead" href="#">Contact</a>
+          <a class="nav-item nav-link active lead" href="#">Contact</a> -->
+          <a class="nav-link active text-black fa fa-envelope-o mx-2 fa-2x" href="mailto:zidan.desirae@gmail.com"></a>
+          <a class="nav-link active fa fa-phone mx-2 fa-2x" href="tel: +1-707-338-7046"></a>
+          <a class="nav-link active fa fa-linkedin-square mx-2 fa-2x" href="https://linkedin.com/in/desirae-zidan" target="_blank"></a>
+          <a class="nav-link active fa fa-github mx-2 fa-2x" href="https://github.com/zidandesirae" target="_blank"></a>
+          <a class="nav-link active fa fa-file-text mx-2 fa-2x" href="ResumeForPortfolio.pdf" target="_blank"></a>
         </div>
       </div>
     </div>
@@ -46,74 +52,80 @@
     <!-- /.row -->
 
     <!-- Links to personal pages -->
-    <div class="card bg-light my-5 text-center">
+    <!-- <div class="card bg-light my-5 text-center">
       <div class="card-body py-1">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-4">
-                    <a class="btn btn-light btn-lg" href="#" role="button">GitHub</a>
+                    <a class="btn btn-light btn-lg" href="https://github.com/zidandesirae" role="button" target="_blank">GitHub</a>
                 </div>
                 <div class="col-4">
-                    <a class="btn btn-light btn-lg" href="#" role="button">LinkedIn</a>
+                    <a class="btn btn-light btn-lg" href="https://linkedin.com/in/desirae-zidan" role="button" target="_blank">LinkedIn</a>
                 </div>
                 <div class="col-4">
-                    <a class="btn btn-light btn-lg" href="#" role="button">Resume</a>
-                </div>
+                    <a class="btn btn-light btn-lg" href="ResumeForPortfolio.pdf" role="button" target="_blank">Resume</a>
+                </div>      
             </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Content Row -->
+    <div class="card pb-0">
+        <h5 class="card-header lead">Featured Work</h5>
+        <div class="card-body">
+    <!-- inside card body -->
     <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Project One</h2>
-            <p class="card-text">INFO</p>
-          </div>
-          <img src="http://placehold.it/200x150" class="card-img-top" alt="...">
-          <div class="card-footer">
-            <a href="https://github.com/Evan-M-Py/projectOne" class="btn btn-light btn-sm" target="_blank">GitHub</a>
-            <a href="https://evan-m-py.github.io/projectOne/" class="btn btn-light btn-sm" target="_blank">Deployed</a>
-          </div>
-        </div>
-      </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Homework</h2>
-            <p class="card-text">INFO</p>
-          </div>
-          <img src="http://placehold.it/200x150" class="card-img-top" alt="...">
-          <div class="card-footer">
-            <a href="#" class="btn btn-light btn-sm" target="_blank">GitHub</a>
-            <a href="#" class="btn btn-light btn-sm" target="_blank">Deployed</a>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="project1.png" class="card-img-topimg img-fluid" alt="project1">
+            <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Info</p>
+            <a href="http://github.com/Evan-M-Py/projectOne" target="_blank">GitHub Repository</a>
+            </div>
+            <div class="card-footer">
+                <a href="https://evan-m-py.github.io/projectOne/" class="btn btn-light btn-sm" target="_blank">View Webpage!</a>
+            </div>
           </div>
         </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="codeQuiz.png" class="card-img-top img-fluid" alt="codeQuiz">
+                <div class="card-body">
+                    <h5 class="card-title">Code Quiz</h5>
+                    <p class="card-text">Info</p>
+                    <a href="https://github.com/zidandesirae/Web-APIs-code-quiz" target="_blank">GitHub Repository</a> 
+                </div>
+                <div class="card-footer">
+                    <a href="https://zidandesirae.github.io/Web-APIs-code-quiz/" class="btn btn-light btn-sm" target="_blank">View Webpage!</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="weatherDashboard.png" class="card-img-top img-fluid" alt="weatherDashboard">
+                <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">Info</p>
+                    <a href="https://github.com/zidandesirae/Server-Side-APIs" target="_blank">GitHub Repository</a>        
+                </div>
+                <div class="card-footer">
+                    <a href="https://zidandesirae.github.io/Server-Side-APIs/" class="btn btn-light btn-sm" target="_blank">View Webpage!</a>
+                </div>
+            </div>        
+        </div>
+        <!-- /.col-md-4 -->
+  
       </div>
-      <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Homework</h2>
-            <p class="card-text">INFO</p>
-          </div>
-          <img src="http://placehold.it/200x150" class="card-img-top" alt="...">
-          <div class="card-footer">
-            <a href="#" class="btn btn-light btn-sm" target="_blank">GitHub</a>
-            <a href="#" class="btn btn-light btn-sm" target="_blank">Deployed</a>
-          </div>
+      <!-- /.row -->
+    
+    <!-- end of inside card body -->
         </div>
       </div>
-      <!-- /.col-md-4 -->
-
-    </div>
-    <!-- /.row -->
-
-  </div>
 
   <!-- Footer -->
-  <footer class="py-2 bg-white">
+  <footer class="pt-5 pb-2 bg-white">
     <div class="container">
       <p class="m-0 text-center">Copyright &copy; 2020</p>
     </div>
